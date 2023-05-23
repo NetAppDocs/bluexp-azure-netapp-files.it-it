@@ -1,0 +1,26 @@
+---
+sidebar: sidebar 
+permalink: task-remove-working-env.html 
+keywords: remove azure netapp files, remove anf, remove working environment 
+summary: 'Questa azione rimuove Azure NetApp Files da BlueXP. Non elimina l"account o i volumi Azure NetApp Files. È possibile aggiungere nuovamente Azure NetApp Files a BlueXP in qualsiasi momento.' 
+---
+= Rimuovere Azure NetApp Files
+:hardbreaks:
+:allow-uri-read: 
+:nofooter: 
+:icons: font
+:linkattrs: 
+:imagesdir: ./media/
+
+
+[role="lead"]
+Questa azione rimuove Azure NetApp Files da BlueXP. Non elimina l'account o i volumi Azure NetApp Files. È possibile aggiungere nuovamente Azure NetApp Files a BlueXP in qualsiasi momento.
+
+.Fasi
+. Aprire l'ambiente di lavoro Azure NetApp Files.
+. Nella parte superiore destra della pagina, selezionare il menu delle azioni e fare clic su *Rimuovi Azure NetApp Files*.
++
+image:screenshot_anf_remove.gif["Una schermata di fare clic su Remove Azure NetApp Files (Rimuovi volumi) per rimuovere i volumi dall'interfaccia BlueXP."]
+
+. Fare clic su *Remove* (Rimuovi) per confermare.
+
