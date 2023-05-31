@@ -3,7 +3,7 @@ $(document).ready(function () {
     // intialize config variables
     let zipLevel = "";
 
-    let baseUrlSection = "/it-it/cloud-manager-azure-netapp-files/pdfs/";
+    let baseUrlSection = "/it-it/bluexp-azure-netapp-files/pdfs/";
     const flavor = $("body").data("flavor");
     if (flavor) {
       baseUrlSection += flavor + "/";
@@ -13,7 +13,7 @@ $(document).ready(function () {
     let zipFilename = "";
     let zipFileSize = 0;
     zipLevel = zipLevel !== ""?zipLevel:1;
-    zipFilename = zipFilename !== ''?zipFilename:"cloud-manager-azure-netapp-files.it-it.zip";
+    zipFilename = zipFilename !== ''?zipFilename:"bluexp-azure-netapp-files.it-it.zip";
     
     // remove container class from pdf tree not having any sub child
     $("#toggleContainerPdf li.pdf-ux-container").not(".active").removeClass("pdf-ux-container");

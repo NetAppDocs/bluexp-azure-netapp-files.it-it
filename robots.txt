@@ -1,1 +1,1 @@
-Sitemap: https://docs.netapp.com/it-it/cloud-manager-azure-netapp-files/sitemap.xml
+Sitemap: https://docs.netapp.com/it-it/bluexp-azure-netapp-files/sitemap.xml
