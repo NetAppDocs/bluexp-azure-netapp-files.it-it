@@ -26,8 +26,8 @@ Scopri le novità di Azure NetApp Files in BlueXP.
 
 Un nuovo servizio modelli di applicazione consente di impostare un modello di volume per Azure NetApp Files. Il modello dovrebbe semplificare il lavoro, in quanto alcuni parametri del volume saranno già definiti nel modello, ad esempio pool di capacità, dimensione, protocollo, VNET e subnet in cui deve risiedere il volume e altro ancora. Quando un parametro è già predefinito, è sufficiente passare al parametro di volume successivo.
 
-* https://docs.netapp.com/us-en/cloud-manager-app-template/concept-resource-templates.html["Scopri i modelli di applicazione e come utilizzarli nel tuo ambiente"^]
-* https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-create-volumes.html["Scopri come creare un volume Azure NetApp Files da un modello"]
+* https://docs.netapp.com/us-en/bluexp-remediation/concept-resource-templates.html["Scopri i modelli di applicazione e come utilizzarli nel tuo ambiente"^]
+* https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-create-volumes.html["Scopri come creare un volume Azure NetApp Files da un modello"]
 
 
 
@@ -40,7 +40,7 @@ Un nuovo servizio modelli di applicazione consente di impostare un modello di vo
 
 Ora è possibile modificare dinamicamente il livello di servizio di un volume per soddisfare le esigenze di carico di lavoro e ottimizzare i costi. Il volume viene spostato nell'altro pool di capacità senza alcun impatto sul volume.
 
-https://docs.netapp.com/us-en/cloud-manager-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level["Scopri come modificare il livello di servizio di un volume"].
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-manage-volumes.html#change-the-volumes-service-level["Scopri come modificare il livello di servizio di un volume"].
 
 
 
