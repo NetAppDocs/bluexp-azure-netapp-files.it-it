@@ -97,7 +97,7 @@ image:screenshot_define_anf_vol_from_template.png["Una schermata che mostra un m
 +
 *Nota:* è possibile fare clic sulla casella di controllo *Mostra parametri di sola lettura* per visualizzare tutti i campi bloccati dal modello se si desidera visualizzare i valori di tali parametri. Per impostazione predefinita, questi campi predefiniti sono nascosti e vengono visualizzati solo i campi da completare.
 
-. Aggiungere valori per tutti i parametri non codificati dal modello. Vedere <<Creating volumes,creazione di volumi>> Per informazioni dettagliate su tutti i parametri da completare per implementare un volume Azure NetApp Files.
+. Aggiungere valori per tutti i parametri non codificati dal modello. Vedere <<Creare volumi,creare volumi>> Per informazioni dettagliate su tutti i parametri da completare per implementare un volume Azure NetApp Files.
 . Fare clic su *Esegui modello* dopo aver definito tutti i parametri necessari per questo volume.
 
 
