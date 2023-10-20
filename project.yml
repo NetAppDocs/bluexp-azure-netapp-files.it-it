@@ -14,12 +14,14 @@ sidebar:
   - title: Documenti Azure NetApp Files
     url: "/index.html"
   - title: Note di rilascio
-    url: "/whats-new.html"
+    entries:
+    - title: Novità
+      url: "/whats-new.html"
   - title: Inizia subito
     entries:
     - title: Scopri di più su Azure NetApp Files
       url: "/concept-azure-netapp-files.html"
-    - title: Avvio rapido
+    - title: Per iniziare il flusso di lavoro
       url: "/task-quick-start.html"
     - title: Configurare un'applicazione Azure ad
       url: "/task-set-up-azure-ad.html"

@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: task-quick-start.html 
 keywords: set up azure netapp files, quick start 
-summary: Inizia subito seguendo questi passaggi o scorri verso il basso fino alle restanti sezioni per ottenere informazioni dettagliate. 
+summary: 'Inizia subito con Azure NetApp Files configurando un"applicazione Azure Active Directory e creando un ambiente di lavoro.' 
 ---
-= Avvio rapido per Azure NetApp Files
+= Per iniziare il flusso di lavoro
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,18 +14,12 @@ summary: Inizia subito seguendo questi passaggi o scorri verso il basso fino all
 
 
 [role="lead"]
-Inizia subito seguendo questi passaggi o segui i link per i dettagli completi.
+Inizia subito con Azure NetApp Files configurando un'applicazione Azure Active Directory e creando un ambiente di lavoro.
 
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] Configurare un'applicazione Azure ad
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-1.png["Uno"] link:task-set-up-azure-ad.html["Configurare un'applicazione Azure ad"]
 [role="quick-margin-para"]
 Da Azure, concedere le autorizzazioni a un'applicazione Azure ad e copiare l'ID dell'applicazione (client), l'ID della directory (tenant) e il valore di un client secret.
 
+.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] link:task-create-working-env.html["Creare un ambiente di lavoro Azure NetApp Files"]
 [role="quick-margin-para"]
-link:task-set-up-azure-ad.html["Scopri come configurare un'applicazione Azure ad"].
-
-.image:https://raw.githubusercontent.com/NetAppDocs/common/main/media/number-2.png["Due"] Creare un ambiente di lavoro Azure NetApp Files
-[role="quick-margin-para"]
-In BlueXP, fare clic su *Aggiungi ambiente di lavoro* > *Microsoft Azure* > *Azure NetApp Files* e fornire i dettagli relativi all'applicazione ad.
-
-[role="quick-margin-para"]
-link:task-create-working-env.html["Scopri come creare un ambiente di lavoro"].
+Da BlueXP, fai clic su *Aggiungi ambiente di lavoro* > *Microsoft Azure* > *Azure NetApp Files* e fornisci i dettagli sull'applicazione ad.

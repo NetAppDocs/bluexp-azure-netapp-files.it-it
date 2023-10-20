@@ -4,7 +4,7 @@ permalink: task-create-volumes.html
 keywords: azure netapp files, create volumes, create nfs volumes, netapp account, capacity pool, create capacity pool, mount path, get mount path, find mount path, mount volume 
 summary: 'Dopo aver configurato l"ambiente di lavoro, è possibile creare account Azure NetApp Files, pool di capacità e volumi.' 
 ---
-= Creare e montare volumi per Azure NetApp Files
+= Creare e montare volumi
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
