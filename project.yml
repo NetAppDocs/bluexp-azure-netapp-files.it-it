@@ -23,7 +23,7 @@ sidebar:
       url: "/concept-azure-netapp-files.html"
     - title: Per iniziare il flusso di lavoro
       url: "/task-quick-start.html"
-    - title: Configurare un'applicazione Azure ad
+    - title: Configurare un'applicazione Microsoft Entra
       url: "/task-set-up-azure-ad.html"
     - title: Creare un ambiente di lavoro
       url: "/task-create-working-env.html"
@@ -43,28 +43,6 @@ sidebar:
       url: "/task-get-help.html"
   - title: Note legali
     url: "/legal-notices.html"
-homepage:
-  tiles:
-  - title: Inizia subito
-    links:
-    - title: Scopri di più su Azure NetApp Files
-      url: concept-azure-netapp-files.html
-    - title: Avvio rapido
-      url: task-quick-start.html
-  - title: USA Azure NetApp Files
-    links:
-    - title: Creare volumi
-      url: task-create-volumes.html
-    - title: Gestire i volumi
-      url: task-manage-volumes.html
-  - title: Blog e community
-    links:
-    - title: Community NetApp
-      url: https://community.netapp.com/t5/Cloud-Data-Services/ct-p/CDS
-    - title: Blog BlueXP
-      url: https://cloud.netapp.com/blog
-    - title: Webinar sul cloud
-      url: https://cloud.netapp.com/events
 product-family:
   name: BlueXP
   repo: bluexp-family

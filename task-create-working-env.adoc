@@ -2,7 +2,7 @@
 sidebar: sidebar 
 permalink: task-create-working-env.html 
 keywords: azure netapp files, create working environment, working environment 
-summary: 'Dopo aver configurato un"applicazione Azure Active Directory, creare un ambiente di lavoro Azure NetApp Files in BlueXP per iniziare a creare i volumi necessari.' 
+summary: 'Dopo aver configurato un"applicazione Microsoft Entra, crea un ambiente di lavoro Azure NetApp Files in BlueXP per iniziare a creare i volumi che ti servono.' 
 ---
 = Creare un ambiente di lavoro Azure NetApp Files
 :hardbreaks:
@@ -14,7 +14,7 @@ summary: 'Dopo aver configurato un"applicazione Azure Active Directory, creare u
 
 
 [role="lead"]
-Dopo aver configurato un'applicazione Azure Active Directory e aver aggiunto le credenziali a BlueXP, creare un ambiente di lavoro Azure NetApp Files in modo da poter iniziare a creare i volumi necessari.
+Dopo aver configurato un'applicazione Microsoft Entra e aggiunto le credenziali a BlueXP, crea un ambiente di lavoro Azure NetApp Files in modo che puoi iniziare a creare i volumi che ti servono.
 
 .Fasi
 . Nella pagina Canvas, fare clic su *Add Working Environment* (Aggiungi ambiente di lavoro).
