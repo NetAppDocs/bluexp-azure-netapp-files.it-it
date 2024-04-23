@@ -22,8 +22,6 @@ Dopo aver configurato l'ambiente di lavoro, è possibile creare account Azure Ne
 
 È possibile creare volumi NFS o SMB in un account Azure NetApp Files nuovo o esistente.
 
-Una funzionalità di BlueXP chiamata "modelli" consente di creare volumi ottimizzati per i requisiti di carico di lavoro per determinate applicazioni, come database o servizi di streaming. Se l'organizzazione ha creato modelli di volume da utilizzare, seguire questa procedura <<Creare volumi da modelli,questi passaggi>>.
-
 .Prima di iniziare
 * Se si desidera utilizzare SMB, è necessario aver configurato DNS e Active Directory.
 * Quando si intende creare un volume SMB, è necessario disporre di un server Windows Active Directory a cui connettersi. Queste informazioni verranno inserite durante la creazione del volume.
@@ -69,46 +67,6 @@ image:screenshot_anf_smb.gif["Schermata dei campi necessari per configurare un v
 Il nuovo volume viene aggiunto all'ambiente di lavoro.
 
 Continuare con <<Montare i volumi,montaggio del volume cloud>>.
-
-
-
-== Creare volumi da modelli
-
-Se l'organizzazione ha creato modelli di volume Azure NetApp Files in modo da poter implementare volumi ottimizzati per i requisiti di carico di lavoro per determinate applicazioni, seguire la procedura descritta in questa sezione.
-
-Il modello dovrebbe semplificare il lavoro, in quanto alcuni parametri del volume saranno già definiti nel modello, ad esempio pool di capacità, dimensione, protocollo, VNET e subnet in cui deve risiedere il volume e altro ancora. Quando un parametro è già predefinito, è sufficiente passare al parametro di volume successivo.
-
-.Fasi
-. Nella pagina Canvas, fare clic sull'ambiente di lavoro Azure NetApp Files su cui si desidera eseguire il provisioning di un volume.
-. Fare clic su image:screenshot_gallery_options.gif["Pulsante More (Altro)"] > *Aggiungi volume da modello*.
-+
-image:screenshot_template_add_vol_anf.png["Una schermata che mostra come aggiungere un nuovo volume da un modello."]
-
-. Nella pagina _Select Template_, selezionare il modello che si desidera utilizzare per creare il volume e fare clic su *Next* (Avanti).
-+
-image:screenshot_select_template_anf.png["Una schermata dei modelli di applicazione disponibili."]
-
-+
-Viene visualizzata la pagina _define Parameters_.
-
-+
-image:screenshot_define_anf_vol_from_template.png["Una schermata che mostra un modello vuoto da compilare per creare un volume."]
-
-+
-*Nota:* è possibile fare clic sulla casella di controllo *Mostra parametri di sola lettura* per visualizzare tutti i campi bloccati dal modello se si desidera visualizzare i valori di tali parametri. Per impostazione predefinita, questi campi predefiniti sono nascosti e vengono visualizzati solo i campi da completare.
-
-. Aggiungere valori per tutti i parametri non codificati dal modello. Vedere <<Creare volumi,creare volumi>> Per informazioni dettagliate su tutti i parametri da completare per implementare un volume Azure NetApp Files.
-. Fare clic su *Esegui modello* dopo aver definito tutti i parametri necessari per questo volume.
-
-
-.Risultato
-BlueXP esegue il provisioning del volume e visualizza una pagina in modo da visualizzare l'avanzamento.
-
-image:screenshot_template_creating_resource_anf.png["Una schermata che mostra lo stato di avanzamento della creazione del nuovo volume dal modello."]
-
-Il nuovo volume viene quindi aggiunto all'ambiente di lavoro.
-
-Continuare con il montaggio del volume cloud.
 
 
 

@@ -18,6 +18,16 @@ Scopri le novità di Azure NetApp Files in BlueXP.
 
 
 
+== 22 aprile 2024
+
+
+
+=== I modelli di volume non sono più supportati
+
+Non è più possibile creare un volume da un modello. Questa azione è stata associata al servizio di correzione BlueXP, che non è più disponibile.
+
+
+
 == 11 aprile 2021
 
 
