@@ -18,6 +18,24 @@ Scopri le novità di Azure NetApp Files in BlueXP.
 
 
 
+== 12 giugno 2024
+
+
+
+=== È richiesta una nuova autorizzazione
+
+Per gestire Azure NetApp Files Volumes da BlueXP è necessaria la seguente autorizzazione:
+
+Microsoft.Network/virtualNetworks/subnets/read
+
+Questa autorizzazione è necessaria per leggere una subnet di rete virtuale.
+
+Se attualmente gestisci Azure NetApp Files da BlueXP, devi aggiungere questa autorizzazione al ruolo personalizzato associato all'applicazione Microsoft Entra precedentemente creata.
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Informazioni su come configurare un'applicazione Microsoft Entra e visualizzare le autorizzazioni di ruolo personalizzate"].
+
+
+
 == 22 aprile 2024
 
 

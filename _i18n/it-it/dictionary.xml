@@ -409,4 +409,12 @@
   <block id="2d177a5ce778fe0e6f460ac5e9449f84" category="section-title">I modelli di volume non sono più supportati</block>
   <block id="14b1c6bd63866971a4cd695c3c2a3d80" category="paragraph">Non è più possibile creare un volume da un modello. Questa azione è stata associata al servizio di correzione BlueXP, che non è più disponibile.</block>
   <block id="d59e0b46782e48a01966e5c7ccc38d17" category="paragraph">NetApp utilizza Microsoft Entra ID come provider di identità per i servizi di autenticazione specifici per il supporto e la licenza.</block>
+  <block id="bbe4d8abcc3519b138a73b8e46ee2119" category="section-title">12 giugno 2024</block>
+  <block id="bb123d17400bea06780499dfee0aa1eb" category="section-title">È richiesta una nuova autorizzazione</block>
+  <block id="19c74b0651bd4a8c13580d2b199c9dcb" category="paragraph">Per gestire Azure NetApp Files Volumes da BlueXP è necessaria la seguente autorizzazione:</block>
+  <block id="d84dc0ddea3fe691a4f90418dade9248" category="paragraph">Microsoft.Network/virtualNetworks/subnets/read</block>
+  <block id="642c767a957f879cd5a09310eef9e35e" category="paragraph">Questa autorizzazione è necessaria per leggere una subnet di rete virtuale.</block>
+  <block id="f1c8aee091d7af06827bd81ed4e56e5a" category="paragraph">Se attualmente gestisci Azure NetApp Files da BlueXP, devi aggiungere questa autorizzazione al ruolo personalizzato associato all'applicazione Microsoft Entra precedentemente creata.</block>
+  <block id="49cb664c5b71b8da627e27d37fe9de88" category="inline-link">Informazioni su come configurare un'applicazione Microsoft Entra e visualizzare le autorizzazioni di ruolo personalizzate</block>
+  <block id="dd9368e78fe4f3483d324b6a988d2f87" category="paragraph"><block ref="aa8b5c9ebdcb57c9427e7bd28a70f7d0" category="inline-link-rx"></block>.</block>
 </blocks>
