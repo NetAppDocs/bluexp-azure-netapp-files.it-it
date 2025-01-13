@@ -22,9 +22,37 @@ Scopri le novità di Azure NetApp Files in BlueXP.
 
 
 
-=== Funzioni di rete ora supportate in BlueXP 
+=== Funzioni di rete ora supportate in BlueXP
 
 Quando si configura un volume in Azure NetApp Files da BlueXP , è ora possibile indicare le funzioni di rete. Ciò si allinea con le funzionalità disponibili in Azure NetApp Files nativo.
+
+
+
+== bbe4d8abcc3519b138a73b8e46ee2119
+
+
+
+=== È richiesta una nuova autorizzazione
+
+Per gestire Azure NetApp Files Volumes da BlueXP è necessaria la seguente autorizzazione:
+
+Microsoft.Network/virtualNetworks/subnets/read
+
+Questa autorizzazione è necessaria per leggere una subnet di rete virtuale.
+
+Se attualmente gestisci Azure NetApp Files da BlueXP, devi aggiungere questa autorizzazione al ruolo personalizzato associato all'applicazione Microsoft Entra precedentemente creata.
+
+https://docs.netapp.com/us-en/bluexp-azure-netapp-files/task-set-up-azure-ad.html["Informazioni su come configurare un'applicazione Microsoft Entra e visualizzare le autorizzazioni di ruolo personalizzate"].
+
+
+
+== 9d5b3307d5a7d5905623bf21ab049bdd
+
+
+
+=== I modelli di volume non sono più supportati
+
+Non è più possibile creare un volume da un modello. Questa azione è stata associata al servizio di correzione BlueXP, che non è più disponibile.
 
 
 
