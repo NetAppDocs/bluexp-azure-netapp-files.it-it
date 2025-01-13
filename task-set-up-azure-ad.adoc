@@ -156,7 +156,7 @@ image:screenshot_settings_icon.gif["Una schermata che mostra l'icona Settings (I
 *** ID dell'applicazione (client)
 *** ID directory (tenant)
 +
-Queste informazioni dovrebbero essere state acquisite quando si <<Create the AD application,Creazione dell'applicazione ad>>.
+Queste informazioni dovrebbero essere state acquisite quando si <<create-AD-application,Creazione dell'applicazione ad>>.
 
 
 
